@@ -14,7 +14,7 @@ bash_prompt_command() {
 	    local trunc_symbol=".."
 	    local dir=${PWD##*/}
 	    pwdmaxlen=$(( ( pwdmaxlen < ${#dir} ) ? ${#dir} : pwdmaxlen ))
-	    NEW_PWD=${PWD/$HOME/~}
+            NEW_PWD=${PWD/#$HOME/\~}
 	    local pwdoffset=$(( ${#NEW_PWD} - pwdmaxlen ))
 	    if [ ${pwdoffset} -gt "0" ]
 	        then
