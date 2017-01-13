@@ -79,4 +79,4 @@ alias du="du -ksh *"
 alias notes="pico ~/notes"
 alias rm="rm -rfi"
 
-alias curl_bash="curl https://www.dropbox.com/s/mcdj7rvvi578nyu/bash_profile?dl=1 -L -o ~/.bash_custom"
+alias reload_bash="curl https://raw.githubusercontent.com/dcasavant/custom-bash/master/custom_bash -L -o ~/.bash_custom"

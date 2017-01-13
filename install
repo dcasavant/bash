@@ -1,0 +1,2 @@
+echo '# Load from the local copy' >> ~/.bash_profile
+echo '. ~/.bash_custom || echo "***  Unable to load bash profile. Profile settings are offline."' >> ~/.bash_profile
