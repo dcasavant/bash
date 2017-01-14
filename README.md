@@ -4,7 +4,7 @@ These are personal bash configurations, aliases, and other tweaks.  You are welc
 
 ## Using custom bash
 
-To use this bash configuration, copy 'custom_bash' to your home directory and add the following line to the bottom of your '~/.bash_profile':
+To use this bash configuration, copy `custom_bash` to your home directory and add the following line to the bottom of your `~/.bash_profile`:
 
     ~/.bash_custom || echo "***  Unable to load bash profile. Profile settings are offline."
 
