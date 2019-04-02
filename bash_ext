@@ -60,11 +60,11 @@ bash_prompt() {
         [ $UID -eq "0" ] && UC=$R   # root's color
 
 	#PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
-	#PS1="${EMK}[${UC}\u${EMR}@${UC}\h ${EMB}\${NEW_PWD}${EMK}]${UC}\\$ ${NONE}" 
+	#PS1="${EMK}[${UC}\u${EMR}@${UC}\h ${EMB}\${NEW_PWD}${EMK}]${UC}\\$ ${NONE}"
 	PS1="${W}[\t${W}] ${W}[${G}\u${G}@${G}\h ${C}\${NEW_PWD}${W}]${W}\\$ ${NONE}"
-} 
+}
 
-#	
+#
 PROMPT_COMMAND=bash_prompt_command
 bash_prompt
 unset bash_prompt
@@ -79,4 +79,4 @@ alias du="du -ksh *"
 alias notes="pico ~/notes"
 alias rm="rm -rfi"
 
-alias reload_bash="curl https://raw.githubusercontent.com/dcasavant/custom-bash/master/custom_bash -L -o ~/.bash_custom"
+alias reload_bash="curl https://raw.githubusercontent.com/dcasavant/custom-bash/master/bash_ext -L -o ~/.bash_ext"
