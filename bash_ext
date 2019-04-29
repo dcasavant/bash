@@ -78,5 +78,6 @@ alias mkdir="mkdir -v"
 alias du="du -ksh *"
 alias notes="pico ~/notes"
 alias rm="rm -rfi"
+alias k="kubectl"
 
 alias reload_bash="curl https://raw.githubusercontent.com/dcasavant/custom-bash/master/bash_ext -L -o ~/.bash_ext"
